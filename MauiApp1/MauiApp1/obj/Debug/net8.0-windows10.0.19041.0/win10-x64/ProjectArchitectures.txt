@@ -1,0 +1,1 @@
+D:\WorkTable\BSUIR\isp_sem4\Lab1-4\MauiApp1\MauiApp1\MauiApp1.csproj;x64

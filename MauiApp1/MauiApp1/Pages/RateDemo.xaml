@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.RateDemo"
+             Title="RateDemo">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Picker x:Name="RatePicker" Loaded="LoadRatePickerItems" SelectedIndexChanged = "IndexChangedForDate" VerticalOptions="Start" HorizontalOptions="Fill"  ></Picker>
+            <DatePicker x:Name="MyDatePicker" Format="D" DateSelected="DateChanged"/>
+            <Label x:Name="CurrentLabel" Text="Курс валюты на эту дату:" VerticalOptions="Fill" VerticalTextAlignment="Center"></Label>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Picker x:Name="RatePickerForChange" Loaded="LoadRatePickerItemsForChange" SelectedIndexChanged = "IndexChanged" VerticalOptions="Start" HorizontalOptions="Fill"  ></Picker>
+            <Label Text="Бел.Руб: " VerticalOptions="Fill" VerticalTextAlignment="Center"></Label>
+            <Entry x:Name="Bel" Text="0,0" TextChanged="BelTextChanged"/>
+            <Label Text="Валюта: " VerticalOptions="Fill" VerticalTextAlignment="Center"></Label>
+            <Entry x:Name="foreign" Text="0,0" TextChanged="ForeignTextChanged"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout></HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

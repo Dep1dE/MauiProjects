@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.PersonalCalculator"
+             BackgroundColor="#1C1C1C">
+
+
+    <Grid ColumnSpacing="5" RowSpacing="8"  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <Label x:Name="ouputLabel" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4" HorizontalTextAlignment="End" Margin="0,0,0,0" Background="#1C1C1C" VerticalTextAlignment="Center" Padding="0,0,30,0" FontSize="Large" TextColor="White">0</Label>
+
+        <Button Clicked="deleteAllSymbols" Text="CE" Grid.Column="0" Grid.Row="1" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#1CA9C9" CornerRadius="50"/>
+        <Button Clicked="deleteOneSymbol" Text="C" Grid.Column="1" Grid.Row="1" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#1CA9C9" CornerRadius="50"/>
+        <Button Clicked="saveX" Text="X" Grid.Column="2" Grid.Row="1" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#1CA9C9" CornerRadius="50"/>
+        <Button Clicked="saveY" Text="Y" Grid.Column="3" Grid.Row="1" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#1CA9C9" CornerRadius="50"/>
+
+        <Button Clicked="numberButton" Text="7" Grid.Column="0" Grid.Row="2" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="numberButton" Text="8" Grid.Column="1" Grid.Row="2" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="numberButton" Text="9" Grid.Column="2" Grid.Row="2" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+
+        <Button Clicked="numberButton" Text="4" Grid.Column="0" Grid.Row="3" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="numberButton" Text="5" Grid.Column="1" Grid.Row="3" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="numberButton" Text="6" Grid.Column="2" Grid.Row="3" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+
+        <Button Clicked="numberButton" Text="1" Grid.Column="0" Grid.Row="4" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="numberButton" Text="2" Grid.Column="1" Grid.Row="4" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="numberButton" Text="3" Grid.Column="2" Grid.Row="4" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+
+        <Button Clicked="numberButton" Text="0" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="numberButton" Text="," Grid.Column="2" Grid.Row="5" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#474A51" CornerRadius="50"/>
+        <Button Clicked="getResult" Text="=" Grid.Column="3" Grid.Row="5" FontSize="Large"  BorderWidth="5" BorderColor="#2F353B" TextColor="#D5D5D5" BackgroundColor="#1CA9C9" CornerRadius="50"/>
+
+    </Grid>
+
+
+</ContentPage>

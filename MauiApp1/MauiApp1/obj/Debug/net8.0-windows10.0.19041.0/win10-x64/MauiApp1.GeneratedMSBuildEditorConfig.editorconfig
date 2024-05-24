@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiApp1
+build_property.ProjectDir = D:\WorkTable\BSUIR\isp_sem4\Lab1-4\MauiApp1\MauiApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/App/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App\App.xaml
+build_metadata.AdditionalFiles.RelativePath = App\App.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Pages/PersonalCalculator.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.PersonalCalculator.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PersonalCalculator.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PersonalCalculator.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Pages/ProgresDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.ProgresDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProgresDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProgresDemo.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Pages/RateDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.RateDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\RateDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\RateDemo.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Pages/SQLiteDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Pages.SQLiteDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SQLiteDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SQLiteDemo.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/WorkTable/BSUIR/isp_sem4/Lab1-4/MauiApp1/MauiApp1/Shell/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Shell.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = Shell\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = Shell\AppShell.xaml
